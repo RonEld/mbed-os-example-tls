@@ -1,33 +1,33 @@
-# mbed TLS Benchmark example on mbed OS
+# Mbed TLS Benchmark example on Mbed OS
 
-This application benchmarks the various cryptographic primitives offered by mbed TLS.
+This application benchmarks the various cryptographic primitives offered by Mbed TLS.
 
 ## Getting started
 
 Set up your environment if you have not done so already. For instructions, refer to the [main readme](../README.md).
 
-You can also compile this example with the [mbed Online Compiler](https://developer.mbed.org/compiler/) by using [this project](https://developer.mbed.org/teams/mbed-os-examples/code/mbed-os-example-tls-benchmark).
+You can also compile this example with the [Mbed Online Compiler](https://os.mbed.com/compiler/) by using [this project](https://os.mbed.com/teams/mbed-os-examples/code/mbed-os-example-tls-benchmark).
 
 ## Monitoring the application
 
 The output in the terminal window should be similar to this:
 
 ```
-  SHA-256                  :       1673 Kb/s,         70 cycles/byte
-  SHA-512                  :        546 Kb/s,        215 cycles/byte
-  AES-CBC-128              :       1428 Kb/s,         82 cycles/byte
-  AES-CBC-192              :       1260 Kb/s,         93 cycles/byte
-  AES-CBC-256              :       1127 Kb/s,        104 cycles/byte
-  AES-GCM-128              :        486 Kb/s,        242 cycles/byte
-  AES-GCM-192              :        464 Kb/s,        253 cycles/byte
-  AES-GCM-256              :        445 Kb/s,        264 cycles/byte
-  AES-CCM-128              :        610 Kb/s,        192 cycles/byte
-  AES-CCM-192              :        547 Kb/s,        214 cycles/byte
-  AES-CCM-256              :        496 Kb/s,        237 cycles/byte
-  CTR_DRBG (NOPR)          :       1139 Kb/s,        102 cycles/byte
-  CTR_DRBG (PR)            :        826 Kb/s,        142 cycles/byte
-  HMAC_DRBG SHA-256 (NOPR) :        193 Kb/s,        611 cycles/byte
-  HMAC_DRBG SHA-256 (PR)   :        170 Kb/s,        695 cycles/byte
+  SHA-256                  :       1673 KB/s
+  SHA-512                  :        546 KB/s
+  AES-CBC-128              :       1428 KB/s
+  AES-CBC-192              :       1260 KB/s
+  AES-CBC-256              :       1127 KB/s
+  AES-GCM-128              :        486 KB/s
+  AES-GCM-192              :        464 KB/s
+  AES-GCM-256              :        445 KB/s
+  AES-CCM-128              :        610 KB/s
+  AES-CCM-192              :        547 KB/s
+  AES-CCM-256              :        496 KB/s
+  CTR_DRBG (NOPR)          :       1139 KB/s
+  CTR_DRBG (PR)            :        826 KB/s
+  HMAC_DRBG SHA-256 (NOPR) :        193 KB/s
+  HMAC_DRBG SHA-256 (PR)   :        170 KB/s
   RSA-2048                 :      28 ms/ public
   RSA-2048                 :     953 ms/private
   RSA-4096                 :      93 ms/ public
